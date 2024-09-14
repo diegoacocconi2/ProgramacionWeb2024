@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, user-scalable=no">
+	    <meta name="author" content="Diego A. Cocconi">
+	    <meta name="description" content="Trabajo práctico N° 2">
+
+	    <title>Trabajo práctico N° 2</title>
+	</head>
+	<body>
+		<form name="formulario" action="cocconi" method="get" style="border: 1px solid black; padding: 5px;">
+			<h1>Registro en nuestra tienda</h1>
+			<p>
+				<label><strong>Nombre de usuario:</strong></label>
+				<br>
+				<input type="text" name="usuario" placeholder="Ej: Luis">
+			</p>
+			<p>
+				<label><strong>Email:</strong></label>
+				<br>
+				<input type="email" name="email" placeholder="Ej: luis@gmail.com">
+			</p>
+			<p>
+				<label><strong>Edad:</strong></label>
+				<br>
+				<input type="number" name="edad" placeholder="Ej: 21">
+			</p>
+			<p>
+				<label><strong>Recomendado por:</strong></label>
+				<br>
+				<select name="recomendado">
+					<option value="google">Google</option>
+					<option value="amigos">Amigos</option>
+					<option value="redes">Redes sociales</option>
+				</select>
+			</p>
+			<p>
+				<label><strong>Género:</strong></label>
+				<br>
+				<input type="radio" name="genero" value="m"><label>Masculino</label>
+				<br>
+				<input type="radio" name="genero" value="f"><label>Femenino</label>
+				<br>
+				<input type="radio" name="genero" value="o"><label>Otro</label>
+			</p>
+			<p>
+				<label><strong>Comentarios:</strong></label>
+				<br>
+				<textarea name="comentarios" rows="4" cols="50"></textarea>
+			</p>
+			<p>
+				<input type="checkbox" name="acepta"><label>Acepto términos y condiciones</label>
+			</p>
+			<p>
+				<input type="submit" value="Registrar">
+			</p>
+		</form>
+	</body>
+</html>
